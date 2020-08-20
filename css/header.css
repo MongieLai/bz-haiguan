@@ -1,0 +1,56 @@
+.haiguan-title {
+    width: 40%;
+    display: flex;
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    background: url('../images/title-border.png') no-repeat;
+    -webkit-background-size: 100% 100%;
+    max-height: 70px;
+    padding-left: 130px;
+    padding-right: 130px;
+    cursor: pointer;
+
+}
+
+.haiguan-title span {
+    font-size: 40px;
+    font-weight: bolder;
+    background: linear-gradient(to bottom, #00f4e1, #0087ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container-wrapper .header-wrapper {
+    display: flex;
+}
+
+.container-wrapper .header-wrapper .title-left-buttons,
+.container-wrapper .header-wrapper .title-right-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    visibility: hidden;
+    padding-top: 5px;
+}
+
+.container-wrapper .header-wrapper .title-left-buttons.active,
+.container-wrapper .header-wrapper .title-right-buttons.active {
+    visibility: visible;
+}
+
+.container-wrapper .header-wrapper .title-left-buttons div,
+.container-wrapper .header-wrapper .title-right-buttons div{
+    height: 100px;
+    width: 85px;
+    cursor: pointer;
+}
+
+
+
+.echart {
+    height: 40vh;
+}
