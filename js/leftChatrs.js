@@ -214,7 +214,7 @@ const twoOptions = {
             },
             areaStyle: {},
             symbol: "none",
-            data: [0, 10, 1, 4, 12, 22, 11]
+            data: [0, 10, 15, 14, 12, 22, 11]
 
         }
     ]

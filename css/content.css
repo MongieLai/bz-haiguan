@@ -64,7 +64,7 @@
 }
 
 .charts-list {
-    transform  : perspective(1400px) rotateY(30deg);
+    transform: perspective(1400px) rotateY(30deg);
 
     flex-grow : 1;
     margin-top: 10px;
@@ -73,6 +73,8 @@
 .charts-list>div {
     height: 30%;
 }
+
+
 
 .data-container .main-content .main-charts-container {
     width: 25%;
@@ -376,7 +378,7 @@
 }
 
 .first-chart {
-    padding-top: 20px;
+    padding-top   : 20px;
     /* transform  : perspective(600px) rotateY(30deg); */
 }
 
@@ -525,21 +527,118 @@
 }
 
 .two-chart {
-    /* transform: perspective(900px) rotateY(30deg); */
     padding-top: 30px;
 }
 
-.two-chart .jiankong-title{
-    color: #01e4ec;
+.two-chart .jiankong-title {
+    color      : #01e4ec;
+    margin-left: 20px;
 }
 
-.two-chart .title-wrapper{
-    margin-left: 30px;
+.two-chart .title-wrapper {
+    margin-left : 30px;
     margin-right: 20px;
 }
 
-.two-chart-main-data{
+.two-chart-main-data {
     height: 140px;
+}
+
+.three-chart {
+    padding-top: 30px;
+}
+
+.three-chart .jiankong-title {
+    margin-left: 20px;
+    color      : #01e4ec;
+}
+
+.three-chart .title-wrapper {
+    margin-left : 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.three-chart .event-wrapper {
+    display        : flex;
+    justify-content: space-around;
+    font-size      : .8em;
+    margin-left    : 30px;
+    margin-bottom  : 20px;
+}
+
+.three-chart .event-wrapper>div:nth-child(1) {
+    width     : 30%;
+    text-align: right;
+}
+
+.three-chart .event-wrapper>div:nth-child(2) {
+    width: 40%;
+}
+
+.three-chart .event-wrapper>div:nth-child(3) {
+    width     : 20%;
+    color     : #01e9e6;
+    text-align: center;
+}
+
+.jindutiao-wrapper {
+    border       : 1px solid #00d6fd;
+    height       : 100%;
+    border-radius: 8px;
+    position     : relative;
+
+}
+
+.jindutiao1 {
+    width           : 96%;
+    background-color: #2599f1;
+    height          : 75%;
+    position        : absolute;
+    top             : 2px;
+    left            : 4px;
+    border-radius   : 8px;
+}
+
+.jindutiao2 {
+    width           : 80%;
+    background-color: #2599f1;
+    height          : 75%;
+    position        : absolute;
+    top             : 2px;
+    left            : 4px;
+    border-radius   : 8px;
+}
+
+
+.jindutiao3 {
+    width           : 52%;
+    background-color: #2599f1;
+    height          : 75%;
+    position        : absolute;
+    top             : 2px;
+    left            : 4px;
+    border-radius   : 8px;
+}
+
+.jindutiao4 {
+    width           : 34%;
+    background-color: #2599f1;
+    height          : 75%;
+    position        : absolute;
+    top             : 2px;
+    left            : 4px;
+    border-radius   : 8px;
+}
+
+.jindutiao5 {
+    width           : 21%;
+    background-color: #2599f1;
+    height          : 75%;
+    position        : absolute;
+    top             : 2px;
+    left            : 4px;
+    border-radius   : 8px;
 }
 
 /*右侧警告信息*/
@@ -601,7 +700,7 @@
 }
 
 .news-list-wrapper .new-item:nth-child(odd) {
-    background-color: rgba(32, 66, 90, 1);
+    background: rgba(32, 66, 90, 1);
 }
 
 .one-line,
